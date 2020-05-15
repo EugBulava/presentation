@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/serif.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<img src="./img/react.png" alt="" width="200px" height="100px" style="border-radius: 50%; border: none; margin-top: 120px;" >
+					<section data-markdown>
+						## React 
+						### Presentation
+					</section>
+				</section>
+				<section>
+					<section data-markdown data-background="./img/react-background.png">
+						## History of React
+					</section>
+					<section>
+						<section>
+							<img src="./img/php.jpg" alt="">
+							PHP: Hypertext Preprocessor
+						</section>
+					</section>
+					<section>
+						<section>
+							<img src="./img/xhp.png" alt="">
+							XHP is an augmentation of PHP and Hack developed at Facebook to allow XML syntax for the purpose of creating custom and reusable HTML elements.
+						</section>
+					</section>
+				</section>
+				<section>
+					<section>
+						<img src="./img/facebook-react.png" alt="">
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						## What is React?
+					</section>
+				</section>
+				<section>
+					<section data-markdown style="margin-top: -200px;">
+						## Virtual DOM
+					</section>
+					<img src="./img/virtual_dom.png" alt="" style="margin-top: 200px;">
+				</section>
+				<section>
+					<section data-markdown style="margin-top: -200px;">
+						## DOM 
+					</section>
+					<img src="./img/dom.png" alt="" style="margin-top: 200px;">
+				</section>
+				<section>
+					<section data-markdown style="margin-top: -200px;">
+						## How it works?
+					</section>
+					<img src="./img/virtual_dom2.PNG" alt="" style="margin-top: 200px;">
+				</section>
+				<section>Slide 6</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				hash: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
